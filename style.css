@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.nav-container img {
+
+  top: 11em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  border: 0.6em double white;
+  margin-right: auto;
+}
+
+.nav-container {
+  display: flex;
+  color: #1E1616;
+  background-color: #E88D2E;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
+}
+
+.nav-bar {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #F3E1CE;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+}
+
+.landing-area-container {
+  display: flex;
+  color: #E6C8A7;
+  background-color: #37302F;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.landing-area-1 {
+  font-family: 'Roboto', arial;
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
+
+
+.landing-area-container button {
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #E88D2E;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.landing-area-image img {
+  width: 500px;
+  height: 350px;
+}
+
+.team-landing-container {
+  align-items: center;
+  background-color: #E6C8A7;
+  list-style: none;
+}
+
+.team-landing-container ul {
+  list-style: none;
+}
+
+.team-landing-container-info {
+  display: flex;
+  /* border: 1px solid gold; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-landing-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #E88D2E;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+.feature {
+  background-color: #E88D2E;
+  color: #F3E1CE;
+}
+
+.feature b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-family: 'Roboto', arial;
+  text-align: right;
+}
+
+.feature p {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+}
+
+.contact-container {
+  background-color: #1E1616;
+  color: #F3E1CE;
+}
+
+.footer {
+
+  background-color: #1F2937;
+  color: #fff;
+  font-family: 'Roboto', arial;
+}
